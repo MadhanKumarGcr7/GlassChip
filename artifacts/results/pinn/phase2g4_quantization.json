@@ -1,0 +1,32 @@
+{
+  "phase": "2G4_quantization",
+  "generated": "2026-09-14T16:23:32.302058+00:00",
+  "n_experiments": 5,
+  "results": [
+    {
+      "quantization_q": 0.0,
+      "tau_ols_median": 383.2533951498729,
+      "tau_pinn_median": 61.45022201538086
+    },
+    {
+      "quantization_q": 0.5,
+      "tau_ols_median": 383.2577288550219,
+      "tau_pinn_median": 61.45022201538086
+    },
+    {
+      "quantization_q": 1.0,
+      "tau_ols_median": 383.22106407696356,
+      "tau_pinn_median": 61.450252532958984
+    },
+    {
+      "quantization_q": 2.0,
+      "tau_ols_median": 383.1908501414912,
+      "tau_pinn_median": 61.454063415527344
+    },
+    {
+      "quantization_q": 5.0,
+      "tau_ols_median": 382.99457370401535,
+      "tau_pinn_median": 61.450340270996094
+    }
+  ]
+}

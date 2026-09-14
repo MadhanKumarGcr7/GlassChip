@@ -1,0 +1,53 @@
+{
+  "phase": "2G7_ablation",
+  "generated": "2026-09-14T16:26:29.026814+00:00",
+  "n_ablations": 5,
+  "ablations": [
+    {
+      "ablation_id": "A1_loss_component",
+      "name": "Physics Loss Contribution",
+      "tau_no_phys": 349.9999694824219,
+      "tau_with_phys": 670.1650390625,
+      "err_no_phys_pct": 8.676616068710139,
+      "err_with_phys_pct": 74.86212713143195
+    },
+    {
+      "ablation_id": "A2_model_formulation",
+      "name": "Strict vs Hybrid PINN",
+      "tau_strict": 670.1650390625,
+      "tau_hybrid": 670.3245239257812,
+      "err_strict_pct": 74.86212713143195,
+      "err_hybrid_pct": 74.9037405562051
+    },
+    {
+      "ablation_id": "A3_quantization_impact",
+      "name": "Quantization Impact (1 degC)",
+      "tau_unquantized": 670.1650390625,
+      "tau_quantized": 670.1653442382812,
+      "err_unquant_pct": 74.86212713143195,
+      "err_quant_pct": 74.86220675911042
+    },
+    {
+      "ablation_id": "A4_dropout_pattern",
+      "name": "Random vs Block Dropout",
+      "tau_random": 670.6298217773438,
+      "tau_block": 646.26708984375,
+      "err_random_pct": 74.98340008575555,
+      "err_block_pct": 68.62657918295139
+    },
+    {
+      "ablation_id": "A5_seed_variance",
+      "name": "Multi-seed Variance (5 seeds)",
+      "seed_taus": [
+        671.1279296875,
+        671.1279296875,
+        663.7434692382812,
+        668.5130615234375,
+        670.9794311523438
+      ],
+      "mean_tau": 669.0983642578125,
+      "std_tau": 2.8563670733830446,
+      "cv_pct": 0.4268979310017336
+    }
+  ]
+}

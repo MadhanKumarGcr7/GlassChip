@@ -1,0 +1,31 @@
+{
+  "phase": "2G3_temporal",
+  "generated": "2026-09-14T16:21:38.771972+00:00",
+  "n_experiments": 4,
+  "results": [
+    {
+      "dt_s": 10.0,
+      "decimate_factor": 1,
+      "tau_ols_median": 383.2533951498729,
+      "tau_pinn_median": 61.45022201538086
+    },
+    {
+      "dt_s": 20.0,
+      "decimate_factor": 2,
+      "tau_ols_median": 381.0567439983345,
+      "tau_pinn_median": 61.399261474609375
+    },
+    {
+      "dt_s": 40.0,
+      "decimate_factor": 4,
+      "tau_ols_median": 374.4061895459413,
+      "tau_pinn_median": 61.18850326538086
+    },
+    {
+      "dt_s": 60.0,
+      "decimate_factor": 6,
+      "tau_ols_median": 349.9641169957176,
+      "tau_pinn_median": 61.5636100769043
+    }
+  ]
+}

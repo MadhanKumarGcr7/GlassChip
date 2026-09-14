@@ -1,0 +1,115 @@
+{
+  "phase": "2G2_sparsity",
+  "generated": "2026-09-14T16:20:13.877688+00:00",
+  "n_experiments": 18,
+  "results": [
+    {
+      "coverage": 1.0,
+      "strategy": "uniform",
+      "tau_err_pinn_median_pct": 32.399559611365696,
+      "tau_err_ols_median_pct": 0.0
+    },
+    {
+      "coverage": 1.0,
+      "strategy": "block",
+      "tau_err_pinn_median_pct": 32.399559611365696,
+      "tau_err_ols_median_pct": 0.0
+    },
+    {
+      "coverage": 1.0,
+      "strategy": "periodic",
+      "tau_err_pinn_median_pct": 32.399559611365696,
+      "tau_err_ols_median_pct": 0.0
+    },
+    {
+      "coverage": 0.75,
+      "strategy": "uniform",
+      "tau_err_pinn_median_pct": 32.37593002706851,
+      "tau_err_ols_median_pct": 32.772030033064134
+    },
+    {
+      "coverage": 0.75,
+      "strategy": "block",
+      "tau_err_pinn_median_pct": 32.412813242166116,
+      "tau_err_ols_median_pct": 2.342410256025719
+    },
+    {
+      "coverage": 0.75,
+      "strategy": "periodic",
+      "tau_err_pinn_median_pct": 32.399559611365696,
+      "tau_err_ols_median_pct": 0.0
+    },
+    {
+      "coverage": 0.5,
+      "strategy": "uniform",
+      "tau_err_pinn_median_pct": 32.42354039720132,
+      "tau_err_ols_median_pct": 58.92178588761571
+    },
+    {
+      "coverage": 0.5,
+      "strategy": "block",
+      "tau_err_pinn_median_pct": 31.96232703970496,
+      "tau_err_ols_median_pct": 0.2806438621368461
+    },
+    {
+      "coverage": 0.5,
+      "strategy": "periodic",
+      "tau_err_pinn_median_pct": 32.39917659778348,
+      "tau_err_ols_median_pct": 50.20342276126155
+    },
+    {
+      "coverage": 0.25,
+      "strategy": "uniform",
+      "tau_err_pinn_median_pct": 32.3916512238877,
+      "tau_err_ols_median_pct": 80.38486443284752
+    },
+    {
+      "coverage": 0.25,
+      "strategy": "block",
+      "tau_err_pinn_median_pct": 30.21311836584686,
+      "tau_err_ols_median_pct": 1.276069133952414e-12
+    },
+    {
+      "coverage": 0.25,
+      "strategy": "periodic",
+      "tau_err_pinn_median_pct": 32.411109679171474,
+      "tau_err_ols_median_pct": 75.86661824591366
+    },
+    {
+      "coverage": 0.1,
+      "strategy": "uniform",
+      "tau_err_pinn_median_pct": 32.371521827479164,
+      "tau_err_ols_median_pct": 93.98013423125468
+    },
+    {
+      "coverage": 0.1,
+      "strategy": "block",
+      "tau_err_pinn_median_pct": 30.21311836584686,
+      "tau_err_ols_median_pct": 1.276069133952414e-12
+    },
+    {
+      "coverage": 0.1,
+      "strategy": "periodic",
+      "tau_err_pinn_median_pct": 32.372407160427386,
+      "tau_err_ols_median_pct": 90.14011886992054
+    },
+    {
+      "coverage": 0.05,
+      "strategy": "uniform",
+      "tau_err_pinn_median_pct": 32.34924608916788,
+      "tau_err_ols_median_pct": 97.85906761988613
+    },
+    {
+      "coverage": 0.05,
+      "strategy": "block",
+      "tau_err_pinn_median_pct": 30.21311836584686,
+      "tau_err_ols_median_pct": 1.276069133952414e-12
+    },
+    {
+      "coverage": 0.05,
+      "strategy": "periodic",
+      "tau_err_pinn_median_pct": 32.43440957833778,
+      "tau_err_ols_median_pct": 95.991801448849
+    }
+  ]
+}

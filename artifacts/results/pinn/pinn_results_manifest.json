@@ -1,0 +1,58 @@
+{
+  "study": "GLASSCHIP-PINN",
+  "generated": "2026-09-14T16:26:33.594985+00:00",
+  "n_phases": 8,
+  "phases": [
+    {
+      "phase": "2G0_synthetic",
+      "file": "phase2g0_synthetic.json",
+      "size_bytes": 2605,
+      "status": "VALID"
+    },
+    {
+      "phase": "2G1_reference",
+      "file": "phase2g1_reference.json",
+      "size_bytes": 1717,
+      "status": "VALID"
+    },
+    {
+      "phase": "2G2_sparsity",
+      "file": "phase2g2_sparsity.json",
+      "size_bytes": 3208,
+      "status": "VALID"
+    },
+    {
+      "phase": "2G3_temporal",
+      "file": "phase2g3_temporal.json",
+      "size_bytes": 739,
+      "status": "VALID"
+    },
+    {
+      "phase": "2G4_quantization",
+      "file": "phase2g4_quantization.json",
+      "size_bytes": 801,
+      "status": "VALID"
+    },
+    {
+      "phase": "2G5_combined",
+      "file": "phase2g5_combined.json",
+      "size_bytes": 10382,
+      "status": "VALID"
+    },
+    {
+      "phase": "2G6_crosshost",
+      "file": "phase2g6_crosshost.json",
+      "size_bytes": 799,
+      "status": "VALID"
+    },
+    {
+      "phase": "2G7_ablation",
+      "file": "phase2g7_ablation.json",
+      "size_bytes": 1593,
+      "status": "VALID"
+    }
+  ],
+  "figures_dir": "paper/figures/pinn/",
+  "tables_dir": "paper/tables/pinn/",
+  "report": "docs/PINN_IDENTIFIABILITY.md"
+}

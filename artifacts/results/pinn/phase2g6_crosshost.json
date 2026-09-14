@@ -1,0 +1,35 @@
+{
+  "phase": "2G6_crosshost",
+  "generated": "2026-09-14T16:26:08.824403+00:00",
+  "train_hosts": [
+    "g04n06",
+    "g14n16",
+    "g15n08"
+  ],
+  "test_hosts": [
+    "g20n18",
+    "g25n18",
+    "g26n10"
+  ],
+  "tau_pinn_global_train": 515.8552856445312,
+  "heldout_units": [
+    {
+      "host": "g20n18",
+      "tau_ref_ols": 362.021110792977,
+      "tau_pinn": 701.1350708007812,
+      "heldout_tau_err_pct": 93.67242679991877
+    },
+    {
+      "host": "g25n18",
+      "tau_ref_ols": 459.24802602946136,
+      "tau_pinn": 698.4605102539062,
+      "heldout_tau_err_pct": 52.08786334752783
+    },
+    {
+      "host": "g26n10",
+      "tau_ref_ols": 418.19936473429385,
+      "tau_pinn": 698.7960205078125,
+      "heldout_tau_err_pct": 67.09638498657162
+    }
+  ]
+}
