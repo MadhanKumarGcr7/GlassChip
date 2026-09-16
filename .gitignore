@@ -1,42 +1,5 @@
 # =====================================================================
-# GLASSCHIP-V1
-#
-# Policy: the dataset is NEVER committed. M100 ExaData is public and
-# permanently archived on Zenodo (CC-BY-4.0); it is downloaded locally,
-# not redistributed through this repository.
-# =====================================================================
 
-# ---------------------------------------------------------------------
-# Datasets - never commit
-# ---------------------------------------------------------------------
-data/
-
-# Defence in depth: catch dataset files placed outside data/ as well.
-*.parquet
-*.feather
-*.h5
-*.hdf5
-*.csv
-
-# ---------------------------------------------------------------------
-# Archives
-# ---------------------------------------------------------------------
-*.tar
-*.tar.*
-*.tgz
-*.zip
-*.7z
-*.gz
-*.bz2
-*.xz
-*.rar
-
-# ---------------------------------------------------------------------
-# Generated output written by the pipeline at default paths
-# ---------------------------------------------------------------------
-/visualizations/
-/eda_plots/
-/results/
 
 # ---------------------------------------------------------------------
 # Python
@@ -127,15 +90,4 @@ credentials.json
 # Local agent settings
 .claude/
 
-# ---------------------------------------------------------------------
-# Datasets - public, referenced by local path, NEVER redistributed here
-#   Summit  (OSTI/OLCF DOI 10.13139/OLCF/1861393, CC-BY-4.0)  ~12 GB
-#   M100    (DOI 10.1038/s41597-023-02174-3,      CC-BY-4.0)  ~1.2 GB
-# data/ is already excluded in full above; these are defence in depth.
-# ---------------------------------------------------------------------
-data/summit/
-data/raw/
-data/exports/
 
-# Generated per-phase CSV summaries (regenerable from artifacts/results/*.json)
-artifacts/**/*.csv
